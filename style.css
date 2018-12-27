@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    width: auto;
+}
+
+header {
+    background-image: -webkit-linear-gradient(top, rgba(150,150,150, 0.1), rgba(0,0,0,2)99%), url("../grayscale/img/bg-masthead.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.jumbotron{
+    background: transparent;
+}
+
+nav a .navbar-brand {
+    float: left;
+    display: inline-block;
+}
+
+.col {
+    float: left;
+}
+
+.degradé {
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(180, 180, 180));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: .9rem;
+    font-size: 100px;
+}
+
+.ecart{
+    letter-spacing: .2rem;
+    font-size: 20px;
+}
+.taille{
+    font-size: 22px;
+}
+.colorwhite {
+    color: white;
+}
+
+.fond {
+    background-image: linear-gradient(rgba(0,0,0,1), rgb(61, 61, 61));
+}
+
+
+
+.fondblack {
+    background-color: black;
+}
+
+.fondcol {
+    background-image: url("../grayscale/img/bg-masthead.jpg");
+    background-size: cover;
+    height: 500px;
+
+}
+
+.fondimage {
+    background-image: -webkit-linear-gradient(top, rgba(150,150,150, 0.1), rgba(0,0,0,2)99%), url("../grayscale/img/bg-signup.jpg");
+    height: 500px;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.fondwhite {
+    background-color: white;
+}
+
+.image1 {
+    background-image: url("../grayscale/img/demo-image-01.jpg");
+    background-size: cover;
+    height: 400px;
+}
+
+.image2 {
+    background-image: url("../grayscale/img/demo-image-02.jpg");
+    background-size: cover;
+    height: 400px;
+}
+
+.droit {
+    margin-right: 0;
+}
+
+.section-projet {
+    padding: 10rem 0;
+    margin: 0 0;
+}
+
+.border2{
+    border-left: 4px solid;
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;}
+    }
+
+hr{
+    height: 3px;
+}
+
+.reseau-so{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color:#333;
+    margin-left: 5px;
+    border-radius: 150%;
+    color: rgba(255,255,255, .3);
+    display: inline-block;
+
+}
+.col-3{
+    border-bottom: 4px solid;
+}
